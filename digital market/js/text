@@ -1,0 +1,101 @@
+<section class="products section" id="products">
+    <h2 class="section__title">
+        Best products
+    </h2>
+    <div class="products__container container swiper">
+        <div class="swiper-wrapper">
+        <article class="products__card swiper-slide">
+            <img src="digital market/image/products 1.jpg" alt="products image" class="products__img">
+
+            <h2 class="products__title">
+                lady sandal
+            </h2>
+            <span class="products__price">
+                &#8358;8000
+            </span>
+        </article>
+
+        <article class="products__card swiper-slide">
+            <img src="digital market/image/products 2.jpg" alt="products image" class="products__img">
+
+            <h2 class="products__title">
+                   face cap
+            </h2>
+            <span class="products__price">
+                &#8358;8000
+            </span>
+        </article>
+
+        <article class="products__card swiper-slide">
+            <img src="digital market/image/products 3.jpg" alt="products image" class="products__img">
+
+            <h2 class="products__title">
+                     face cap   
+            </h2>
+            <span class="products__price">
+                &#8358;8000
+            </span>
+        </article>
+
+        <article class="products__card swiper-slide">
+            <img src="digital market/image/products 4.jpg" alt="products image" class="products__img">
+
+            <h2 class="products__title">
+                  face cap
+            </h2>
+            <span class="products__price">
+                &#8358;8000
+            </span>
+        </article>
+        </div>
+        <div class="swiper-button-next">
+            <i class="ri-arrow-right-line"></i>
+        </div>
+        <div class="swiper-button-prev">
+            <i class="ri-arrow-left-line"></i>
+        </div>
+    </div>
+</section>
+
+.products__container{
+    padding-bottom: 5rem;
+
+}
+.products__card{
+    width: 270px;
+}
+
+.products__img{
+    margin-bottom: 1rem;
+}
+
+.products__title{
+    font-size: var(--h3-font-size);
+    margin-bottom: .75rem;
+}
+
+.products__price{
+    color: var(--title-color);
+    font-weight: var(--font-medium);
+}
+/* swiper class */
+.swiper-button-prev::after,
+.swiper-button-next::after{
+    content: '';
+}
+.swiper-button-prev,
+.swiper-button-next{
+top: initial;
+bottom: 0;
+width: initial;
+height: initial;
+font-size: 1.5rem;
+color: var(--title-color);
+}
+.swiper-button-prev{
+    left: calc(50% - 2rem);
+}
+
+.swiper-button-next{
+    right: calc(50% - 2rem);
+}

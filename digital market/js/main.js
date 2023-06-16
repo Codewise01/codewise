@@ -23,7 +23,7 @@ let  swiperproducts = new swiper(".products__container", {
     breakpoints:{
             1024:{
             
-                spaceBetween: 50,
+                spaceBetween: 72,
             },
         },
         });
